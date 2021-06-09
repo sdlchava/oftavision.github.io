@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="53px" viewBox="0 0 88 53" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Icono/pterigion</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Servicios" transform="translate(-194.000000, -1912.000000)">
+            <g id="Icono/pterigion" transform="translate(196.000000, 1913.000000)">
+                <g id="Group-Copy-2">
+                    <g id="Group-4-Copy-2" transform="translate(8.000000, 2.000000)">
+                        <ellipse id="Oval" stroke="#0657B9" stroke-width="3" cx="34.5" cy="23" rx="22" ry="21.5"></ellipse>
+                        <circle id="Oval" stroke="#4E494F" stroke-width="3" cx="35" cy="23" r="9.5"></circle>
+                        <path d="M0.75,34 C14.9166667,25.6666667 24.4166667,24.1666667 29.25,29.5 C34.0833333,34.8333333 33.5,41.166678 27.5,48.5000341 C21,46.666678 15.5,44.6666667 11,42.5 C6.5,40.3333333 3.08333333,37.5 0.75,34 Z" id="Path-15" fill="#87A6F5"></path>
+                    </g>
+                    <path d="M0,26.5664403 C11.9739583,42.5221695 25.7519531,50.5000341 41.3339844,50.5000341 C56.9160156,50.5000341 71.1972656,42.5221695 84.1777344,26.5664403 C71.5123698,9.26696115 57.2311198,0.617221571 41.3339844,0.617221571 C25.436849,0.617221571 11.6588542,9.26696115 0,26.5664403 Z" id="Path-6" stroke="#979797" stroke-width="3" stroke-linejoin="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

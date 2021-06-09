@@ -1,0 +1,353 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+/* ---------- MENÚ ---------- */
+.contenedor-menu {
+    display: flex;
+    height: 75px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    height: 60px;
+}
+.logo img {
+    display: block;
+    height: 100%;
+    color: #fff;
+}
+.enlaces a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 21px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+}
+.enlaces a:hover {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+/* ---------- HEADER ---------- */
+.hero {
+    height: 650px;
+    background-image: linear-gradient(to right, rgba(10, 9, 10, 0.904) 0%, rgba(37, 116, 252, 0.473) 100%), url("../img/bg1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.wave {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.textos{
+    /* margin: 0px 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.titulo {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.leyenda {
+    font-size: 22px;
+    font-weight: 300;
+}
+.btn {
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.btn:hover {
+    background: rgba(255, 255, 255, 0.836);
+}
+/* ---------- MAIN ---------- */
+.titulo-seccion1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #203F6B;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* ---------- SECTION CONTACT ---------- */
+.contact__us {
+    background-color: #F2F4FB;
+}
+.contact__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.contactt{
+    width: 40%;
+}
+.contact__title{
+    color: #232E45;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.contact__description {
+    color: #444655;
+    font-size: 18px;
+    line-height: 2rem;
+}
+.icon__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.contacto__icon {
+    background: #004FE8;
+    border-radius: 50%;
+    padding: 10px 10px;
+    color: #fff;
+    margin-right: 20px;
+}
+.txt {
+    /* margin-left: 16px; */
+    color: #444655;
+    font-size: 19px;
+}
+.contact__form {
+    width: 50%;
+    background-image: linear-gradient(to top, rgba(30, 59, 114, 0.842) 0%, rgba(30, 59, 114, 0.774) 1%, rgba(42, 82, 152, 0.938) 100%), url("../img/bg__contact.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    border-radius: 2px;
+    padding: 60px;
+    overflow: hidden;
+}
+.form__title {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"]{
+    display: inline-block;
+    width: 100%;
+    padding: 10px 5px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    color: #444655;
+    font-size: 16px;
+}
+input[type="submit"] {
+    float: right;
+    padding: 20px 30px;
+    margin-top: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    background-color: #004FE8;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: transform .3s;
+}
+input[type="submit"]:hover{
+    background-color: #0657B9;
+    transform: scale(1.1);
+}
+  
+.asesoria__content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.asesoria__card {
+    width: 40%;
+    height: auto;
+    padding: 40px 40px;
+    background-color: #004FE8;
+    border-radius: 3px;
+}
+.card__title{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.text__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__day {
+    color: #a4a6af;
+    font-weight: 500;
+    font-size: 20px;
+}
+.card__hours {
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+.linea {
+    border: 1px solid #6D7185;
+    margin: 20px 0;
+}
+.img__asesoria {
+    margin-top: 50px;
+    width: 300px;
+}
+.img__asesoria img {
+    width: 100%;
+    object-fit: cover;
+}
+.asesoria {
+    width: 50%;
+}
+.asesoria__title {
+    color: #232E45;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.asesoria__description{
+    color: #444655;
+    font-size: 18px;
+}
+.asesoria_iconos {
+    display: flex;
+    flex-direction: column;
+}
+.asesoria__icon {
+    background: #004FE8;
+    border-radius: 50%;
+    padding: 10px 10px;
+    color: #fff;
+    margin: 20px 20px;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    background: #444655;
+    position: relative;
+}
+
+.wave1 {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.contactoo {
+    margin-top: 30px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.contacto__content{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.contacto__img{
+    width: 200px;
+    height: 200px;
+}
+.contacto__img img{
+    width: 200px;
+}
+.contacto__title {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.contacto__ubicacion, .mapa {
+    color: #fff;
+    font-weight: 500;
+}
+.contact{
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.contact-icon{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+/* ---------- RESPONSIVE DESING ---------- */
+@media screen and (max-width: 768px){
+    .contact__content {
+        flex-direction: column;
+    }
+    .contactt {
+        width: 80%;
+    }
+    .contact__form {
+        margin-top: 1.5rem;
+        width: 80%;
+    }
+    .asesoria__content {
+        flex-direction: column;
+    }
+    .asesoria__card {
+        width: 90%;
+        margin-bottom: 2rem;
+    }
+    .img__asesoria {
+        width: 400px;
+        margin: 2rem 2rem;
+    }
+    .asesoria {
+        width: 80%;
+    }
+    .asesoria__description {
+        line-height: 1.8rem;
+    }
+    .contacto__content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contacto__ubicacion {
+        margin-bottom: 1rem;
+    }
+    .contacto__img {
+        display: none;
+    }
+}

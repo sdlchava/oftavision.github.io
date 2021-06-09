@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="54px" viewBox="0 0 88 54" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Icono/cataratas</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Servicios" transform="translate(-194.000000, -679.000000)">
+            <g id="Icono/cataratas" transform="translate(196.000000, 679.000000)">
+                <g id="Group">
+                    <g id="Group-4-Copy-2" stroke-width="3">
+                        <path d="M0,28.5664403 C11.9739583,44.5221695 25.7519531,52.5000341 41.3339844,52.5000341 C56.9160156,52.5000341 71.1972656,44.5221695 84.1777344,28.5664403 C71.5123698,11.2669612 57.2311198,2.61722157 41.3339844,2.61722157 C25.436849,2.61722157 11.6588542,11.2669612 0,28.5664403 Z" id="Path-6" stroke="#979797" stroke-linejoin="round"></path>
+                        <circle id="Oval" stroke="#0657B9" cx="42.5" cy="27.1172216" r="25"></circle>
+                    </g>
+                    <line x1="26" y1="24.25" x2="34.5" y2="14" id="Path-14" stroke="#4E494F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="27.5" y1="32.5" x2="44.5" y2="12.5" id="Path-14-Copy" stroke="#4E494F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="30.5" y1="40.5" x2="53.5" y2="12.5" id="Path-14-Copy-2" stroke="#4E494F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="39.5" y1="41.5" x2="56.5" y2="20.5" id="Path-14-Copy-3" stroke="#4E494F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                    <line x1="50" y1="40.25" x2="58.5" y2="30" id="Path-14-Copy-4" stroke="#4E494F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

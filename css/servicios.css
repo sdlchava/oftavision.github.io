@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.contenedor {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 0;
+    overflow: hidden;
+}
+
+/* ---------- MENÚ ---------- */
+.contenedor-menu {
+    display: flex;
+    height: 75px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    height: 60px;
+}
+.logo img {
+    display: block;
+    height: 100%;
+    color: #fff;
+}
+.enlaces a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 21px;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+}
+.enlaces a:hover {
+    border-bottom: 2px solid #fff;
+    padding-bottom: 5px;
+}
+
+/* ---------- HEADER ---------- */
+.hero {
+    height: 650px;
+    background-image: linear-gradient(to right, rgba(10, 9, 10, 0.904) 0%, rgba(37, 116, 252, 0.473) 100%), url("../img/bg3.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+}
+.wave {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+.textos{
+    /* margin: 0px 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.titulo {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.leyenda {
+    font-size: 22px;
+    font-weight: 300;
+}
+.btn {
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.btn:hover {
+    background: rgba(255, 255, 255, 0.836);
+}
+/* ---------- MAIN ---------- */
+.titulo-seccion1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #203F6B;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+/* ---------- SECTION TRATAMIENTOS ---------- */
+
+.tratamientos__content{
+    display: flex;
+    justify-content: space-between;
+}
+.tratamientos {
+    width: 45%;
+}
+.tratamiento__title {
+    font-weight: 700;
+    font-size: 50px;
+    color: #203F6B;
+    margin-bottom: 20px;
+}
+.tratamiento__description{
+    font-weight: 500;
+    color: #444655;
+    line-height: 30px;
+    font-size: 18px;
+}
+.tratamientos__img {
+    width: 45%;
+}
+.tratamientos__img img{
+    width: 100%;
+    object-fit: cover;
+}
+/* ---------- SECTION SERVICES ---------- */
+.services__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+.services{
+    width: 32%;
+    background-color: #F2F4FB;
+    padding: 40px 40px;
+    height: auto;
+    margin-bottom: 30px;
+}
+.services__img {
+    width: 92px;
+    height: 88px;
+    margin-bottom: 20px;
+}
+.services__img img{
+    width: 100%;
+}
+.services__title {
+    color: #444655;
+    font-size: 33px;
+    margin-bottom: 20px;
+}
+.services__description {
+    color: #444655;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 28px;
+}
+.services__flex {
+    background-color: #F2F4FB;
+    padding: 40px 40px;
+    height: auto;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.services__contenido {
+    display: flex;   
+}
+.service {
+    width: 40%;
+    margin-right: 80px;
+}
+.service img {
+    width: 100%;
+    object-fit: cover;
+}
+.text {
+    width: 50%;
+}
+
+/* ---------- FOOTER ---------- */
+
+footer {
+    background: #444655;
+    position: relative;
+}
+
+.wave1 {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.contactoo {
+    margin-top: 30px;
+    color: #fff;
+    margin-bottom: 60px;
+}
+.contacto__content{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.contacto__img{
+    width: 200px;
+    height: 200px;
+}
+.contacto__img img{
+    width: 200px;
+}
+.contacto__title {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.contacto__ubicacion, .mapa {
+    color: #fff;
+    font-weight: 500;
+}
+.contact{
+    display: block;
+    color: #fff;
+    margin-bottom: 10px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+.contact-icon{
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+/* ---------- RESPONSIVE DESING ---------- */
+@media screen and (max-width: 768px){
+    .tratamientos__content {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .tratamientos {
+        width: 90%;
+    }
+    .tratamiento__title {
+        font-size: 2.5rem;
+    }
+    .tratamiento__description {
+        text-align: justify;
+        margin-bottom: 1rem;
+    }
+    .tratamientos__img {
+        width: 90%;
+    }
+    .services {
+        width: 48%;
+    }
+    .contacto__content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .contacto__ubicacion {
+        margin-bottom: 1rem;
+    }
+    .contacto__img {
+        display: none;
+    }
+}
